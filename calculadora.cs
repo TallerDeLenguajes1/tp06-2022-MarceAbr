@@ -1,4 +1,4 @@
-Public class Cargo 
+public class Cargo 
 {
     string Nombre;
     string Apellido;
@@ -7,9 +7,13 @@ Public class Cargo
     char Genero;
     DateTime FechaDeIngreso;
     double Sueldo;
-    Public enum cargos
+    enum cargos
     {
-        
+        Auxiliar,
+        Administrativo,
+        Ingeniero,
+        Especialista,
+        Investigador,
     }
 }
 
