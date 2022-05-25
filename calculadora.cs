@@ -1,27 +1,19 @@
-public class Calculadora 
+public class Cargo 
 {
-    public double resultado;
-
-    public Calculadora(double valorIncial)
+    string Nombre;
+    string Apellido;
+    DateTime FechaDeNacimiento;
+    char EstadoCivil;
+    char Genero;
+    DateTime FechaDeIngreso;
+    double Sueldo;
+    enum cargos
     {
-        resultado = valorIncial;
-    }
-
-    public void Sumar(double valor)
-    {
-        resultado += valor;
-    }
-    public void Restar(double valor)
-    {
-        resultado -= valor;
-    }
-    public void Producto(double valor)
-    {
-        resultado *= valor;
-    }
-    public void Cociente(double valor)
-    {
-        resultado /= valor;
+        Auxiliar,
+        Administrativo,
+        Ingeniero,
+        Especialista,
+        Investigador,
     }
 }
 
